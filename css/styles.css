@@ -1,0 +1,165 @@
+@font-face {
+    font-family: praia;
+    src: url(../fonts/Bangers-Regular.ttf);
+}
+
+@font-face {
+    font-family: nove;
+    src: url(../fonts/Nove.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(245, 236, 194), rgb(250, 250, 250));
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: #4a3c82;
+    font-weight: bold;
+    transition: .5s;
+}
+
+a:hover {
+    color: #FFC907;
+}
+
+#index section {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    height: auto;
+    border-bottom: 3px solid #826AE2;
+    margin: 0 5px 0 5px;
+}
+
+#index .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+
+#index #about {
+    gap: 20px;
+}
+
+#index h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #FFC907;
+    width: fit-content;
+    font-family: nove;
+    text-transform: lowercase;
+    text-shadow: 4px 4px 2px rgba(142, 123, 3, 0.064);
+}
+
+#index .content h2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #826AE2;
+    text-shadow: 4px 4px 2px rgba(178, 12, 229, 0.064);
+}
+
+#index .content p {
+    color: #4a3c82;
+}
+
+#index #about p {
+    width: 100%;
+    text-align: justify;
+}
+
+#index #service p {
+    text-align: center;
+}
+
+#index .content ul {
+    color: #4a3c82; 
+    padding-left: 15px;
+}
+
+#index .content button {
+    background-color: #519DFF;
+    border: none;
+    width: fit-content;
+    padding: 20px 10px 20px 10px;
+    width: 50%;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 23px;
+    font-weight: bold;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.249);
+}
+
+#index .content button:hover {
+    background-color: #FFC907;
+}
+
+#index .box {
+    flex: 1;
+    background-image: linear-gradient(to right, #FFC907, #826AE2);
+    overflow: hidden;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.249);
+}
+
+@media (max-width: 1200px) {
+    #index h1 {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    #index .content h2 {
+        font-size: 2rem;
+    }
+
+    #index .content button {
+        width: 70%;
+        font-size: 1rem;
+        align-self: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    #index h1 {
+        font-size: 2.5rem;
+    }
+
+    #index .content h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #index section {
+        flex-direction: column;
+    }
+
+    #index section {
+        padding: 0;
+        margin: 0;
+    }
+
+    #index #service {
+        order: 2;
+    }
+
+    #index #about {
+        order: 2;
+    }
+}
+
+@media (max-width: 480px) {
+    #index #about p {
+        text-indent: 40px;
+    }
+}

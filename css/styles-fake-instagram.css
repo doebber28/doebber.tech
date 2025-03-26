@@ -1,0 +1,115 @@
+#index #fake-instagram {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#index #fake-instagram #post {
+    background-color: white;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.249);
+}
+
+#index #fake-instagram #post-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#index #fake-instagram #post-header #photo-text {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#index #fake-instagram #post-header #photo-text div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    font-size: 12px;
+}
+
+#index #fake-instagram #post-header #photo-text div span:nth-child(1) {
+    font-weight: bold;
+}
+
+#index #fake-instagram #post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+#index #fake-instagram #post-header #button-points {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+#index #fake-instagram #post-header #button-points div {
+    width: 4px;
+    height: 4px;
+    border-radius: 30px;
+    background-color: black;
+}
+
+#index #fake-instagram #post-photo img {
+    width: 280px;
+}
+
+#index #fake-instagram #post-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+#index #fake-instagram #post-action div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#index #fake-instagram #post-action img {
+    width: 20px;
+    height: 20px;
+}
+
+#index #fake-instagram #post-number-likes {
+    font-weight: bold;
+    padding: 0 0 10px 10px;
+    font-size: 12px;
+}
+
+#index #fake-instagram #post-description {
+    font-size: 12px;
+    padding: 0 0 10px 10px;
+}
+
+#index #fake-instagram #post-description span {
+    color: gray;
+}
+
+@media (max-width: 1200px) {
+    #index #fake-instagram {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+    #index #fake-instagram {
+        box-shadow: none;
+    }
+}
+
+@media (max-width: 480px) {
+
+}
