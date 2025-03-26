@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
 
 #index #fake-instagram #post {
@@ -95,9 +96,7 @@
 }
 
 @media (max-width: 1200px) {
-    #index #fake-instagram {
-        padding: 30px;
-    }
+
 }
 
 @media (max-width: 1024px) {
