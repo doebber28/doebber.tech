@@ -17,7 +17,6 @@
     height: calc(100% - 30px);
     overflow: hidden;
     padding: 30px;
-    background-color: #ffc9072f;  
 }
 
 #index #fake-site #fake-window {
@@ -281,7 +280,7 @@
     #index #fake-site {
         order: 1;
         padding: 0;
-        background-image: url('../img/original/beach.jpeg');
+        background-image: url('../img/optimized/beach.jpeg');
         background-size: cover; /* Faz a imagem cobrir toda a tela */
         background-position: center; /* Centraliza a imagem */
         background-repeat: no-repeat; /* Evita que a imagem se repita */

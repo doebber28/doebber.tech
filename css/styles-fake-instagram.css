@@ -106,6 +106,10 @@
 @media (max-width: 768px) {
     #index #fake-instagram {
         box-shadow: none;
+        background-image: url('../img/optimized/beach.jpg');
+        background-size: cover; /* Faz a imagem cobrir toda a tela */
+        background-position: center; /* Centraliza a imagem */
+        background-repeat: no-repeat; /* Evita que a imagem se repita */
     }
 }
 
