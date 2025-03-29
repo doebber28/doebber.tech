@@ -33,6 +33,7 @@ a:hover {
 }
 
 #index section {
+    height: 100vh;
     display: flex;
     flex-direction: row;
     padding: 50px;
