@@ -33,12 +33,10 @@ a:hover {
 }
 
 #index section {
-    height: 100vh;
     display: flex;
     flex-direction: row;
     padding: 50px;
     height: auto;
-    border-bottom: 3px solid #826AE2;
     margin: 0 5px 0 5px;
 }
 
@@ -146,7 +144,6 @@ a:hover {
 @media (max-width: 768px) {
     #index section {
         flex-direction: column;
-        border: none;
     }
 
     #index section {
@@ -164,6 +161,10 @@ a:hover {
 }
 
 @media (max-width: 480px) {
+    #index h1 {
+        font-size: 2rem;
+    }
+
     #index #about p {
         text-indent: 40px;
     }

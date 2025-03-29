@@ -101,3 +101,9 @@
 @media (max-width: 480px) {
 
 }
+
+@media (min-width: 1350px) {
+    #index #contact-form form {
+        width: 500px;
+    }
+}
